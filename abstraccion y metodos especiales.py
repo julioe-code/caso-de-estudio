@@ -1,6 +1,8 @@
 # Definimos una clase abstracta "Vehiculo" con métodos especiales
 from abc import ABC, abstractmethod
 #cosa
+
+#unir dos ramas
 class Vehiculo(ABC):
     def __init__(self, marca, modelo, año):
         self.marca = marca
